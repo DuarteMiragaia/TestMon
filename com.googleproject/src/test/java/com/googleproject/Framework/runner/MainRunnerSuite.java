@@ -1,12 +1,8 @@
-package com.googleproject.MoneseFramework.runner;
-
-import org.junit.runner.RunWith;
+package com.googleproject.Framework.runner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
-
-@RunWith(Cucumber.class)
 
 @CucumberOptions (
 		features = {"src/test/java/com/googleproject/Framework/featureFiles/"},
