@@ -1,7 +1,6 @@
 Feature: Home Page is displayed
 	Google Home Page is displayed to the user checks Search box is displayed
-	
-@Smoke	
+		
 Scenario: Navigate to Google Home Page and check Search box is displayed
 	Given User navigates to Google website
 	And Search box is displayed
