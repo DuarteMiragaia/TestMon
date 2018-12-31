@@ -26,8 +26,6 @@
 					<configuration>
 						<source>1.8</source>
 						<target>1.8</target>
-						<fork>true</fork>
-						<executable>${env.JAVA_HOME}\bin\javac.exe</executable>
 					</configuration>
 				</plugin>
 				<plugin>
