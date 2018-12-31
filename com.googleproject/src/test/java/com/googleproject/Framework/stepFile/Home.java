@@ -1,4 +1,4 @@
-package com.googleproject.MoneseFramework.stepFile;
+package com.googleproject.Framework.stepFile;
 
 import java.util.concurrent.TimeUnit;
 
@@ -18,7 +18,7 @@ public class  Home {
 	
 	@Before // Setup Firefox Driver and Opening the browser Window
 	public void setup() {
-		System.setProperty("webdriver.gecko.driver", "/Users/dmi35/Projects/JavaAutomation/GoogleExample/Framework/src/test/java/com/googleproject/MoneseFramework/resources/geckodriver.dmg");
+		System.setProperty("webdriver.gecko.driver", "{YOURPATH}/TestMon/com.googleproject/src/test/java/com/googleproject/Framework/resources/geckodriver");
 		FirefoxOptions firefoxOptions = new FirefoxOptions();
 		firefoxOptions.setCapability("marionette", true);
 		this.driver = new FirefoxDriver(firefoxOptions);
